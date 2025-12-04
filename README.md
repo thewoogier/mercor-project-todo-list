@@ -35,3 +35,6 @@ make
     - `q` or `Q` - quit TODO CLI
 
 Note: The todo list is stored in `.todo.user`.
+
+## Future Roadmap
+- **Archive Command**: Implement an `archive` feature (suggested key: `x`) that moves all completed tasks (items marked with `[x]`) from `.todo.user` to a new file named `.todo.history`. This preserves the tasks for record-keeping while cleaning up the main view.
